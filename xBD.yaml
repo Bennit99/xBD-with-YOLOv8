@@ -1,0 +1,13 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\path\to\Data  # dataset root dir
+train: train  # path to your train images
+val: val  # path to your validation images
+test: test  # path to your test images
+
+# Classes
+names:
+  0: unbeschaedigt
+  1: kleiner Schaden
+  2: großer Schaden
+  3: zerstoert
+  4: nicht erkennbar
